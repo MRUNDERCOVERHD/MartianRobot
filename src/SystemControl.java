@@ -212,7 +212,7 @@ public class SystemControl {
                     }
                     break;
                 case 5:
-                    System.out.println("The size of the Terrain is: " + terrain);
+                    System.out.println("The size of the Terrain is: " + terrain.topRight + " and " + terrain.topLeft );
                     System.out.println("The current Robots available are:");
                     int i =1;
                     for (Map.Entry entry : robotCollection.entrySet()) {
